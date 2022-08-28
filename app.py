@@ -9,7 +9,7 @@ def hello():
 @app.route("/result", methods=['POST','GET'])
 def namafungsiirelevankah():
     data_input = (request.form)
-    # input_string=data_input.get('text')
+    input_string=data_input.get('text')
 
     output_string=hard_code(input_string)
 

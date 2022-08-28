@@ -8,12 +8,12 @@ def hard_code(stringg):
             count+=1
     return round(count/len(input_sent.split())*100,2)
 
-# if __name__ == '__main__':
-#     n = int(input("number of test cases: "))
-#     ints = list(map(int,input("insert {} integer{} each separated with space:\n".format(n,'' if n <= 1 else 's')).split()))
+if __name__ == '__main__':
+    n = int(input("number of test cases: "))
+    ints = list(map(int,input("insert {} integer{} each separated with space:\n".format(n,'' if n <= 1 else 's')).split()))
 
-#     try:
-#         for i in range(n):
-#             print(nine(ints[i]))
-#     except:
-#         print("number of integers you just put in is less than what you said earlier!")
+    try:
+        for i in range(n):
+            print(nine(ints[i]))
+    except:
+        print("number of integers you just put in is less than what you said earlier!")
