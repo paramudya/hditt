@@ -3,3 +3,12 @@ env\Scripts\activate
 
 requirements generation:
 pip3 freeze > requirements.txt
+
+git thingies:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+git add .
+git commit -m "add comments here"
+git push origin main
+
+main being the branch i want
+
