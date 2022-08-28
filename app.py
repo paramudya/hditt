@@ -1,9 +1,10 @@
-from flask import Flask
+from flask import Flask, render_template, request, jsonify
+
 app = Flask (__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello this is the dummy for us dummies to deply our dumb dumb depressing project!'
+    return render_template("home.html")
 
 if __name__ == '__main__':
     app.run()
